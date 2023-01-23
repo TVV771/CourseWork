@@ -30,19 +30,28 @@ public class Main {
 
     public static Employee findEmployeeWithMaxSalary() {
         Employee result = employees[0];
-        if (employees[0] == null) {
-            throw new RuntimeException();
-        }
-        float maxSalary = employees[0].getSalary();
+        int maxSalary = Integer.MIN_VALUE;
         for (Employee employee : employees) {
-            if (employee.getSalary() > maxSalary) {
-                maxSalary = employee.getSalary();
+            if (employee != null && employee.getSalary() > maxSalary) {
+                maxSalary = (int) employee.getSalary();
                 result = employee;
             }
-        }
+            }
+
         return result;
     }
-    public static float calculateAverageSalary() {return calculateTotalSalary() / Employee.getCounter();}
+
+    public static float calculateAverageSalary() {
+        int count = 1;
+        float sum = 0;
+        for (Employee employee : employees) {
+            if (employee != null && employee.getDepartment() == count) {
+                sum += employee.getSalary();
+                count++;
+            }
+        }
+        return sum / (float) count;
+    }
     public static void printFullNames() {
         for (Employee employee : employees) {
             if (employee != null){
@@ -54,6 +63,7 @@ public class Main {
     public static void main(String[] args) {
         employees = new Employee[]{
                 new Employee("Ануфриев Михаил Константинович", 1, 25500f),
+
         new Employee("Васильев Дмитрий Андреевич", 2, 31450f),
         new Employee("Дудин Сергей Николаевич", 3, 40430f),
         new Employee("Костромин Роман Сергеевич", 4, 56200f),
@@ -65,6 +75,7 @@ public class Main {
         System.out.println("avg = " + calculateAverageSalary());
     }
 }
+
 
 
 

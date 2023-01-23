@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c58d92c1-839d-4e46-93d0-ef0c0b18c938" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coursework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
+    <list default="true" id="c58d92c1-839d-4e46-93d0-ef0c0b18c938" name="Changes" comment="Курсовая работа выполнена">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +76,8 @@
       <option name="presentableId" value="Default" />
       <updated>1673943405486</updated>
       <workItem from="1673943407001" duration="1403000" />
-      <workItem from="1674377794873" duration="6726000" />
+      <workItem from="1674377794873" duration="7250000" />
+      <workItem from="1674463288251" duration="5147000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1673943485068</created>
@@ -89,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673943485068</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Курсовая работа выполнена">
+      <created>1674384741842</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674384741842</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +112,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Курсовая работа выполнена" />
+    <option name="LAST_COMMIT_MESSAGE" value="Курсовая работа выполнена" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
